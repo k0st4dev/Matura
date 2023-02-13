@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foto galerija</title>
+
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="skripte/main.js"></script>
+  </head>
+  <body>
+    <h1 class="naslov">Фото галерија</h1>
+    <ul>
+      <li><a class="active" href="index.html">Почетна</a></li>
+      <li><a href="autor.html">О аутору</a></li>
+      <li><a href="uputstvo.html">Упутство</a></li>
+      <li style="float: right; color: white"><a href="#">Завршни испит</a></li>
+    </ul>
+
+    <main>
+      <div class="picture_container">
+        <div class="ex1 picture_container">
+          <p id="tekst">
+            Седам светских чуда старог света је скуп архитектонских дела које су
+            стари Грци, нарочито у хеленистичкој епохи, сматрали врхунцем људске
+            креативности и генијалности. Међутим, од ових седам чуда још само
+            комплекс великих пирамида у Гизи и дан данас постоји.
+          </p>
+        </div>
+
+        <div class="centar">
+          <img src="slike/slika1.jpg" class="centralpicture" id="prvi" />
+        </div>
+
+        <div class="minipicturescont">
+          <img
+            src="slike/slika1.jpg"
+            class="minipictures"
+            onclick="Promeni(this)"
+          />
+          <img
+            src="slike/slika2.jpg"
+            class="minipictures"
+            onclick="Promeni(this)"
+          />
+          <img
+            src="slike/slika3.jpg"
+            class="minipictures"
+            onclick="Promeni(this)"
+          />
+          <img
+            src="slike/slika4.jpg"
+            class="minipictures"
+            onclick="Promeni(this)"
+          />
+          <img
+            src="slike/slika5.jpg"
+            class="minipictures"
+            onclick="Promeni(this)"
+          />
+          <img
+            src="slike/slika6.jpg"
+            class="minipictures"
+            onclick="Promeni(this)"
+          />
+          <img
+            src="slike/slika7.jpg"
+            class="minipictures"
+            onclick="Promeni(this)"
+          />
+          <img
+            src="slike/slika8.jpg"
+            class="minipictures"
+            onclick="Promeni(this)"
+          />
+          <img
+            src="slike/slika9.jpg"
+            class="minipictures"
+            onclick="Promeni(this)"
+          />
+          <img
+            src="slike/slika10.jpg"
+            class="minipictures"
+            onclick="Promeni(this)"
+          />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

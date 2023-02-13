@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #add6f5;
+}
+.naslov {
+  color: #476abd;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #476abd;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #add6f5;
+}
+
+.picture_container {
+  height: 640px;
+  width: 640px;
+  margin: auto;
+  position: relative;
+  background: white;
+}
+
+.centar {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centralpicture {
+  width: 640px;
+  height: 480px;
+}
+
+.minipictures {
+  width: 64px;
+  height: 40px;
+  float: left;
+}
+
+.minipicturescont {
+  width: 650px;
+  margin: 0 auto;
+}
+
+div.ex1 {
+  width: 640px;
+  height: 640px;
+  overflow: scroll;
+}
+
+.active {
+  background-color: #79b8e9;
+}
+
+.autor {
+  margin-top: 20px;
+  padding: 50px;
+  height: 500px;
+  font-family: bold;
+  font-size: 30px;
+  text-align: center;
+}
