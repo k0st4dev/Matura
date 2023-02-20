@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 class="naslov">ОСНОВНА ШКОЛА "СОЊА МАРИНКОВИЋ"</h1>
+    <ul>
+      <li><a class="active" href="index.html">Почетна</a></li>
+      <li><a href="autor.html">О аутору</a></li>
+      <li><a href="uputstvo.html">Упутство</a></li>
+    </ul>
+
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <div class="col-md-12 text-center naslov2">
+            <h4>Србија и њени суседи</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 slova text-center">
+          <h1>Г</h1>
+          <h1>е</h1>
+          <h1>о</h1>
+          <h1>г</h1>
+          <h1>р</h1>
+          <h1>а</h1>
+          <h1>ф</h1>
+          <h1>и</h1>
+          <h1>ј</h1>
+          <h1>а</h1>
+        </div>
+        <div class="col-md-8 position-relative">
+          <img src="slike/mwuh5djLtJC.jpg" alt="" class="karta" width="" />
+
+          <div class="drzava-wrapper position-absolute srbija">
+            <img
+              src="slike/srbija.jpg"
+              onmouseover="Pusti1()"
+              onclick="window.open('./info/srbija.html','name','width=300, height=200')"
+            />
+            <p>Srbija</p>
+          </div>
+          <div class="drzava-wrapper position-absolute madjarska">
+            <img
+              src="slike/madjarska.jpg"
+              alt=""
+              onmouseover="Pusti2()"
+              onclick="window.open('./info/madjarska.html','name','width=300, height=200')"
+            />
+            <p>Madjarska</p>
+          </div>
+          <div class="drzava-wrapper position-absolute rumunija">
+            <img
+              src="slike/rumunija.jpg"
+              alt=""
+              onmouseover="Pusti3()"
+              onclick="window.open('./info/rumunija.html','name','width=300, height=200')"
+            />
+            <p>Rumunija</p>
+          </div>
+          <div class="drzava-wrapper position-absolute bugarska">
+            <img
+              src="slike/bugarska.jpg"
+              alt=""
+              onmouseover="Pusti4()"
+              onclick="window.open('./info/bugarska.html','name','width=300, height=200')"
+            />
+            <p>Bugarska</p>
+          </div>
+          <div class="drzava-wrapper position-absolute makedonija">
+            <img
+              src="slike/makedonija.jpg"
+              alt=""
+              onmouseover="Pusti5()"
+              onclick="window.open('./info/makedonija.html','name','width=300, height=200')"
+            />
+            <p>Makedonija</p>
+          </div>
+          <div class="drzava-wrapper position-absolute albanija">
+            <img
+              src="slike/albanija.jpg"
+              alt=""
+              onmouseover="Pusti6()"
+              onclick="window.open('./info/albanija.html','name','width=300, height=200')"
+            />
+            <p>Albanija</p>
+          </div>
+          <div class="drzava-wrapper position-absolute cg">
+            <img
+              src="slike/crnagora.jpg"
+              alt=""
+              onmouseover="Pusti7()"
+              onclick="window.open('./info/cg.html','name','width=300, height=200')"
+            />
+            <p>Crna Gora</p>
+          </div>
+          <div class="drzava-wrapper position-absolute bosna">
+            <img
+              src="slike/bosna.jpg"
+              alt=""
+              onmouseover="Pusti8()"
+              onclick="window.open('./info/bih.html','name','width=300, height=200')"
+            />
+            <p>BiH</p>
+          </div>
+          <div class="drzava-wrapper position-absolute hrvatska">
+            <img
+              src="slike/hrvatska.jpg"
+              alt=""
+              onmouseover="Pusti9()"
+              onclick="window.open('./info/hrvatska.html','name','width=300, height=200')"
+            />
+            <p>Hrvatska</p>
+          </div>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Copyright &copy ОСНОВНА ШКОЛА "СОЊА МАРИНКОВИЋ"</p>
+    </div>
+
+    <audio id="audio1" src="himne/srbija.mp3"></audio>
+    <audio id="audio2" src="himne/madjarska.mp3"></audio>
+    <audio id="audio3" src="himne/rumunija.mp3"></audio>
+    <audio id="audio4" src="himne/bugarska.mp3"></audio>
+    <audio id="audio5" src="himne/makedonija.mp3"></audio>
+    <audio id="audio6" src="himne/crnagora.mp3"></audio>
+    <audio id="audio7" src="himne/albanija.mp3"></audio>
+    <audio id="audio8" src="himne/bih.mp3"></audio>
+    <audio id="audio9" src="himne/hrvatska.mp3"></audio>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
