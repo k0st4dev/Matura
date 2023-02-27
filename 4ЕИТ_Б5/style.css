@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #eef5ad;
+}
+p {
+  font: 2px;
+  padding: 0;
+  margin: 0;
+}
+.podnaslov {
+  text-align: center;
+  color: #3a8d2f;
+}
+.delovizaglavlja {
+  float: left;
+  margin: 10px 170px;
+}
+.slika {
+  height: 50px;
+  width: 50px;
+}
+.ime {
+  background-color: #77da73c2;
+  color: #eef5ad;
+}
+.table td {
+  text-align: center;
+  vertical-align: middle;
+}
+.table {
+  background-color: #8ce075;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  margin: 0px auto;
+}
+table,
+th,
+td {
+  border: 1px double grey;
+}
+
+.naslov {
+  text-align: center;
+  color: #3a8d2f;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #77da73c2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+li a {
+  display: block;
+  color: #49963f;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #3a8d2f;
+  color: #fff;
+}
+.naslov2 {
+  color: #3a8d2f;
+  margin: 10px;
+}
+.slova h1 {
+  color: #3a8d2f;
+  text-shadow: 2px 2px 4px #000;
+  font-size: 67px;
+}
+
+.futer {
+  left: 0;
+  bottom: 0;
+  background-color: #3a8d2f;
+  width: 100%;
+  text-align: center;
+  height: 50px;
+  padding: 10px;
+  margin-top: 50px;
+}
+.autor {
+  margin-top: 20px;
+  padding: 50px;
+  height: 500px;
+  font-family: bold;
+  font-size: 30px;
+  text-align: center;
+}
